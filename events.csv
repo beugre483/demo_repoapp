@@ -1,0 +1,10 @@
+event_id,scenario_id,label,kind,scope,inverter_id,ptr_id,start_min,end_min,start,end,severity,anomaly_id,detected_by,visible_from_min,visible_from
+EV01,S01,OND9_1 · Arrêt,Arrêt,OND9_1,OND9_1,PTR9,580,724,09:40,12:04,Critique,A03,Les deux,584,09:44
+EV02,S02,OND7_9 · Défaut DC,Défaut DC,OND7_9,OND7_9,PTR7,500,1439,08:20,23:59,Majeure,A01,Les deux,505,08:25
+EV03,S03,OND8_6 · Déclassement,Déclassement,OND8_6,OND8_6,PTR8,645,914,10:45,15:14,Majeure,A05,Les deux,649,10:49
+EV04,S04,OND10_7 · Perte de communication,Perte de communication,OND10_7,OND10_7,PTR10,590,649,09:50,10:49,Mineure,A04,Règles,599,09:59
+EV05,S05,Capteur B · Dérive capteur,Dérive capteur,Capteur B,,,420,1439,07:00,23:59,Mineure,A06,Les deux,682,11:22
+EV06,S06,OND7_2 · Dérive lente,Dérive lente,OND7_2,OND7_2,PTR7,360,1439,06:00,23:59,Majeure,A02,ML,571,09:31
+EV07,S07,Centrale · Passage nuageux,Passage nuageux,Centrale,,,690,704,11:30,11:44,Info,,,690,11:30
+EV08,S08,PTR6+PTR7 · Limitation réseau,Limitation réseau,PTR6+PTR7,,,720,779,12:00,12:59,Info,A07,Règles,724,12:04
+EV09,S09,OND8_9 · Maintenance,Maintenance,OND8_9,OND8_9,PTR8,795,884,13:15,14:44,Info,,,795,13:15

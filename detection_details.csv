@@ -1,0 +1,20 @@
+anomaly_id,scenario_id,detector,rule,threshold,result,observed_value,visible_from_min,visible_from,explanation
+A03,S01,Règles,Écart au rendement médian du poste,−8 % pendant 5 min,Détecté,"−100,0 %",584,09:44,"À 09:44, le rendement de OND9_1 est −100,0 % par rapport à la médiane de son poste (seuil −8 % pendant 5 minutes consécutives)."
+A03,S01,ML,Résidu du modèle de comportement normal,"−2,5 % lissé sur 10 min, 5 min",Détecté,"−50,1 %",584,09:44,"À 09:44, la production de OND9_1 est −50,1 % sous ce que le modèle attend pour cette irradiance et cette température (seuil −2,5 %)."
+A01,S02,Règles,Écart au rendement médian du poste,−8 % pendant 5 min,Détecté,"−19,7 %",506,08:26,"À 08:26, le rendement de OND7_9 est −19,7 % par rapport à la médiane de son poste (seuil −8 % pendant 5 minutes consécutives)."
+A01,S02,ML,Résidu du modèle de comportement normal,"−2,5 % lissé sur 10 min, 5 min",Détecté,"−12,5 %",505,08:25,"À 08:25, la production de OND7_9 est −12,5 % sous ce que le modèle attend pour cette irradiance et cette température (seuil −2,5 %)."
+A05,S03,Règles,Écart au rendement médian du poste,−8 % pendant 5 min,Détecté,"−29,5 %",650,10:50,"À 10:50, le rendement de OND8_6 est −29,5 % par rapport à la médiane de son poste (seuil −8 % pendant 5 minutes consécutives)."
+A05,S03,ML,Résidu du modèle de comportement normal,"−2,5 % lissé sur 10 min, 5 min",Détecté,"−14,6 %",649,10:49,"À 10:49, la production de OND8_6 est −14,6 % sous ce que le modèle attend pour cette irradiance et cette température (seuil −2,5 %)."
+A04,S04,Règles,Absence de mesure,10 min de jour sans donnée,Détecté,60 min sans mesure,599,09:59,Aucune mesure reçue de OND10_7 depuis 09:50 ; l'alerte qualité est levée à 09:59 (seuil 10 minutes en journée).
+A04,S04,ML,Résidu du modèle,,Non applicable,,599,09:59,"Le modèle n'a rien à comparer : sans mesure, il ne peut ni confirmer ni infirmer une panne."
+A06,S05,Règles,Écart capteur B − modèle NOCT,4 °C pendant 15 min,Détecté,"+5,2 °C",780,13:00,"À 13:00, le capteur B lit 5,2 °C de plus que la température attendue (seuil 4 °C pendant 15 minutes)."
+A06,S05,ML,Résidu du modèle de température,"+2,5 °C lissé sur 10 min, 5 min",Détecté,"+2,6 °C",682,11:22,"À 11:22, le capteur B s'écarte de 2,6 °C du comportement appris : le ML le repère 1 h 38 min avant les règles."
+A02,S06,Règles,Écart au rendement médian du poste,−8 % pendant 5 min,Non détecté,"−2,0 %",571,09:31,"À 09:31, l'écart de OND7_2 avec la médiane de son poste est de −2,0 %, loin du seuil de −8 % : les règles ne voient rien."
+A02,S06,Règles,Écart au rendement médian du poste (pic de la journée),−8 % pendant 5 min,Non détecté,"−6,0 %",871,14:31,"Sur toute la journée, l'écart maximal avec les voisins est de −6,0 % (à 14:31) : le seuil de −8 % n'est jamais atteint."
+A02,S06,ML,Résidu du modèle de comportement normal,"−2,5 % lissé sur 10 min, 5 min",Détecté,"−2,6 %",571,09:31,"À 09:31, la production de OND7_2 est −2,6 % sous le comportement normal appris : le ML voit la dérive que les seuils ne voient pas."
+A07,S08,Règles,Consigne de limitation réseau,setpoint < 100 %,Classé externe,87 %,724,12:04,"La consigne réseau est à 87 % de la puissance nominale sur PTR6 et PTR7 et les onduleurs sont plafonnés à ce niveau : événement externe, pas un défaut."
+A07,S08,ML,Résidu du modèle,,Aucune anomalie,,724,12:04,La consigne réseau fait partie des entrées du modèle : un plafond imposé de l'extérieur n'est pas un comportement anormal.
+,S07,Règles,Écart au rendement médian du poste,−8 % pendant 5 min,Aucune alerte,"≤ 2,1 %",705,11:45,"Pendant le passage nuageux (11:30 à 11:45), tous les onduleurs baissent ensemble : l'écart maximal avec leur poste n'est que de 2,1 %."
+,S07,ML,Résidu du modèle,"−2,5 % lissé",Aucune alerte,"≤ 0,9 %",705,11:45,"Le modèle tient compte de l'irradiance : le résidu maximal reste à 0,9 %, la baisse est expliquée par le nuage."
+,S09,Règles,Statut onduleur,MAINT,Exclu,,795,13:15,OND8_9 est en maintenance planifiée de 13:15 à 14:45 : exclu de la détection et du calcul de disponibilité.
+,S09,ML,Statut onduleur,MAINT,Exclu,,795,13:15,Même exclusion que les règles.
