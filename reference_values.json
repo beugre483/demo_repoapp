@@ -1,0 +1,122 @@
+{
+  "10:30": {
+    "power_delivered_mw": 14.8593,
+    "irradiance_wm2": 901.2,
+    "energy_delivered_cum_mwh": 35.750934,
+    "pr_cum_pct": 85.86,
+    "meter_index_mwh": 40409.279,
+    "module_temp_c": 47.7,
+    "ambient_temp_c": 20.3,
+    "inverters_available": 76,
+    "inverters_scope": 77,
+    "ptr_available": 5,
+    "strings_available": 1819,
+    "strings_scope": 1848,
+    "availability_inv_pct": 98.7,
+    "soiling_index": 95.29,
+    "anomalies_open": 4,
+    "plant_status": "Dégradé",
+    "per_ptr": {
+      "PTR6": {
+        "pr_cum_pct": 86.27,
+        "delivered_cum_mwh": 7.0
+      },
+      "PTR7": {
+        "pr_cum_pct": 85.29,
+        "delivered_cum_mwh": 6.921
+      },
+      "PTR8": {
+        "pr_cum_pct": 86.66,
+        "delivered_cum_mwh": 7.497
+      },
+      "PTR9": {
+        "pr_cum_pct": 84.47,
+        "delivered_cum_mwh": 6.851
+      },
+      "PTR10": {
+        "pr_cum_pct": 86.5,
+        "delivered_cum_mwh": 7.482
+      }
+    }
+  },
+  "12:30": {
+    "power_delivered_mw": 14.8515,
+    "irradiance_wm2": 946.1,
+    "energy_delivered_cum_mwh": 63.580307,
+    "pr_cum_pct": 83.15,
+    "meter_index_mwh": 40437.108,
+    "module_temp_c": 51.9,
+    "ambient_temp_c": 22.0,
+    "inverters_available": 77,
+    "inverters_scope": 77,
+    "ptr_available": 5,
+    "strings_available": 1843,
+    "strings_scope": 1848,
+    "availability_inv_pct": 100.0,
+    "soiling_index": 95.29,
+    "anomalies_open": 4,
+    "plant_status": "Dégradé",
+    "per_ptr": {
+      "PTR6": {
+        "pr_cum_pct": 83.12,
+        "delivered_cum_mwh": 12.385
+      },
+      "PTR7": {
+        "pr_cum_pct": 82.13,
+        "delivered_cum_mwh": 12.237
+      },
+      "PTR8": {
+        "pr_cum_pct": 84.17,
+        "delivered_cum_mwh": 13.37
+      },
+      "PTR9": {
+        "pr_cum_pct": 81.58,
+        "delivered_cum_mwh": 12.15
+      },
+      "PTR10": {
+        "pr_cum_pct": 84.6,
+        "delivered_cum_mwh": 13.437
+      }
+    }
+  },
+  "23:59": {
+    "power_delivered_mw": 0.0,
+    "irradiance_wm2": 0.0,
+    "energy_delivered_cum_mwh": 107.909538,
+    "pr_cum_pct": 83.15,
+    "meter_index_mwh": 40481.437,
+    "module_temp_c": 11.4,
+    "ambient_temp_c": 11.4,
+    "inverters_available": 0,
+    "inverters_scope": 0,
+    "ptr_available": 5,
+    "strings_available": 0,
+    "strings_scope": 0,
+    "availability_inv_pct": null,
+    "soiling_index": 95.29,
+    "anomalies_open": 3,
+    "plant_status": "Dégradé",
+    "per_ptr": {
+      "PTR6": {
+        "pr_cum_pct": 83.07,
+        "delivered_cum_mwh": 21.008
+      },
+      "PTR7": {
+        "pr_cum_pct": 81.94,
+        "delivered_cum_mwh": 20.723
+      },
+      "PTR8": {
+        "pr_cum_pct": 83.22,
+        "delivered_cum_mwh": 22.437
+      },
+      "PTR9": {
+        "pr_cum_pct": 82.8,
+        "delivered_cum_mwh": 20.93
+      },
+      "PTR10": {
+        "pr_cum_pct": 84.63,
+        "delivered_cum_mwh": 22.811
+      }
+    }
+  }
+}

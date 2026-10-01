@@ -1,0 +1,2 @@
+event_id,scenario_id,inverter_id,ptr_id,type,planned_start,planned_end,date,description,counts_in_availability,energy_not_produced_kwh
+M01,S09,OND8_9,PTR8,Maintenance préventive,13:15,14:45,2026-04-22,"Contrôle annuel de OND8_9 (serrage, ventilation). Période exclue du calcul de disponibilité.",non,253.141

@@ -1,0 +1,15 @@
+step,type,kwh
+Production théorique (STC),total,129772.508
+Température,loss,-8532.485
+Salissure,loss,-5714.75
+Câblage et mismatch,loss,-2906.88
+Défaut DC (S02),loss,-281.967
+Dérive (S06),loss,-66.443
+Rendement onduleur,loss,-1699.065
+Écrêtage,loss,-260.168
+Déclassement thermique (S03),loss,-165.201
+Deemed Energy (Grid) (S08),loss,-665.846
+Arrêt onduleur (S01),loss,-445.689
+Maintenance (S09),loss,-253.141
+Transformateurs et ligne,loss,-871.335
+Énergie livrée au compteur 63 kV,total,107909.538
