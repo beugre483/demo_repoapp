@@ -1,0 +1,6 @@
+string_id,inverter_id,string_no,scenario_id,start_min,start,end_min,state,probable_cause
+OND7_9_S04,OND7_9,4,S02,500,08:20,,Hors service (courant nul),"Fusible, connecteur ou câble DC ouvert (cause exacte non mesurable à distance)"
+OND7_9_S09,OND7_9,9,S02,500,08:20,,Hors service (courant nul),"Fusible, connecteur ou câble DC ouvert (cause exacte non mesurable à distance)"
+OND7_9_S12,OND7_9,12,S02,500,08:20,,Hors service (courant nul),"Fusible, connecteur ou câble DC ouvert (cause exacte non mesurable à distance)"
+OND7_9_S17,OND7_9,17,S02,500,08:20,,Hors service (courant nul),"Fusible, connecteur ou câble DC ouvert (cause exacte non mesurable à distance)"
+OND7_9_S21,OND7_9,21,S02,500,08:20,,Hors service (courant nul),"Fusible, connecteur ou câble DC ouvert (cause exacte non mesurable à distance)"
