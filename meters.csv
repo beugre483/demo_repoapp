@@ -1,0 +1,4 @@
+meter_id,label,model,role,tolerance_pct
+JIRAMA,JIRAMA,HOLLEY + DTSY541SR,"Compteur du client (point de livraison 63 kV), référence de facturation",0.5
+NEA,NEA,Landis+Gyr E650,Compteur de la centrale,0.5
+PPC,PPC,Phoenix Contact EMPro 600,Compteur de la centrale,0.5
